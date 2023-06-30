@@ -1,0 +1,128 @@
+.navbar-brand img{
+  height: 50px;
+  width: 100px;
+}
+.fw-bold:hover{
+   border-bottom: 4px solid black;
+}
+
+/* Add this CSS in a separate file or the header of your HTML document */
+
+.footer {
+  background-color: #f7f7f7;
+  padding: 30px 0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li,
+.useful-links li,
+.social-media li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-menu a,
+.useful-links a,
+.social-media a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-menu a:hover,
+.useful-links a:hover,
+.social-media a:hover {
+  color: #555;
+}
+
+.contact-info p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.newsletter-signup p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input[type="email"] {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.input-wrapper button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.input-wrapper button:hover {
+  background-color: #555;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer p:last-child {
+  margin-top: 10px
+}.card-list{
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.about{
+  background-color: #e5e4e2;
+  padding: 1rem 0;
+  border: .5px solid grey;
+  margin-bottom: 0;
+}
+.right{
+  float: right;
+}
+.amenties{
+  border: 1pxs solid grey;
+}
+td i{
+  font-size: x-large;
+}
+.add-breakfast{
+  height: 60px;
+  width: 93%;
+  border: 1px solid blue;
+}
+.breakfast-logo{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.green{
+  color: green;
+}
+.btn{
+  margin: 14px;
+  color: #fff;
+  background-color: blue;
+  padding: 0 5px;
+  height: 30px;
+}
+.navbar{
+  border-bottom: 1px solid grey;
+}
